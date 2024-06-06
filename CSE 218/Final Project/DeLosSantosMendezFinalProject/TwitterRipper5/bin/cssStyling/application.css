@@ -1,0 +1,36 @@
+
+.root{
+	-fx-background-color: rgb(32.0,32.0,32.0);
+}
+
+.label{
+	-fx-font-family: "SansSerif";
+	-fx-text-fill: rgb(245.0, 237.0, 0.0);
+}
+
+.button{
+	-fx-background-color: rgb(108,108,108);
+	-fx-font-family: "SansSerif";
+	font-weight: bold;
+	-fx-font-size: 15;
+	-fx-text-fill: rgb(146, 146, 146);
+}
+
+#InteractionArea{
+	-fx-background-color: rgb(70.0,70.0,70.0);
+	-fx-background-radius: 5.0;
+}
+
+#Password {
+	-fx-background-color: rgb(85, 85, 85);
+	-fx-font-family: "SansSerif";
+	-fx-text-fill: rgb(8, 8, 8);
+}
+
+
+#Username{
+	-fx-background-color: rgb(85, 85, 85);
+	-fx-font-family: "SansSerif";
+	-fx-text-fill: rgb(8, 8, 8);
+}
+

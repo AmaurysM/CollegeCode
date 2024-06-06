@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< Updated upstream
+    <list default="true" id="162ef2fa-1629-4738-8765-04d30cf25bb5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/Remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/Remote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/checkers/KeyStrokes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/checkers/KeyStrokes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/checkers/Sounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/checkers/Sounds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/ControlWithKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/ControlWithKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/Controllable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/Controllable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/DogDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/DogDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csc211/finalproject/model/controllable/Window.java" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="162ef2fa-1629-4738-8765-04d30cf25bb5" name="Changes" comment="" />
+>>>>>>> Stashed changes
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fMxaZqpjuU4vyiHKSRTnpc6SZl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/M07Graphs/FilanProject/src/main/resources/com/csc211/filanproject/images",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41724136"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\M07Graphs\FilanProject\src\main\resources\com\csc211\filanproject\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\M07Graphs\FinalProjectCSC211\src\main\resources\com\csc211\finalproject\images" />
+      <recent name="D:\M07Graphs\FinalProjectCSC211\src\main\resources\com\csc211\finalproject" />
+      <recent name="D:\M07Graphs\FinalProjectCSC211\src\main\java\com\csc211\finalproject\model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.csc211.finalproject.HelloApplication" />
+      <module name="FilanProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="FinalProjectCSC211" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="FinalProjectCSC211" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="162ef2fa-1629-4738-8765-04d30cf25bb5" name="Changes" comment="" />
+      <created>1713624812663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713624812663</updated>
+    </task>
+    <servers />
+  </component>
+</project>

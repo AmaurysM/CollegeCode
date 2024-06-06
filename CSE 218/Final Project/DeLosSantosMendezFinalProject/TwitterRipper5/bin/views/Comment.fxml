@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CommentController">
+   <children>
+      <GridPane fx:id="holdCommentPropPane" layoutX="10.0" layoutY="10.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="51.000003814697266" vgrow="NEVER" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" vgrow="ALWAYS" />
+            <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="23.200006103515634" vgrow="NEVER" />
+         </rowConstraints>
+         <children>
+            <Pane fx:id="backgroundStylingPane" style="-fx-background-color: #777; -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="2" />
+            <Label fx:id="usernameLabel" prefWidth="59.0" text="Label" GridPane.columnIndex="1">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font></Label>
+            <ImageView fx:id="profilePictureImageView" fitHeight="58.0" fitWidth="44.0" onMouseClicked="#pressProfilePicture" pickOnBounds="true" preserveRatio="true">
+               <GridPane.margin>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </GridPane.margin>
+               <image>
+                  <Image url="@../../images/user.png" />
+               </image>
+            </ImageView>
+            <HBox alignment="TOP_RIGHT" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Label fx:id="timeOfPostLabel" text="Label" />
+                  <ImageView fx:id="likeButton" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#addLike" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/Like(blank).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="dislikeButton" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#addDislike" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/disLike(blank).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="favoriteButton" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#addFavorite" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/star(Blank).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <TextFlow fx:id="textFlowHoldesLabelComment" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextFlow>
+            <Label fx:id="commentSettings" ellipsisString="" prefHeight="36.0" prefWidth="20.0" GridPane.rowIndex="1">
+               <contextMenu>
+                  <ContextMenu fx:id="contextMenu">
+                    <items>
+                        <MenuItem fx:id="goToCommentViewMenuItem" mnemonicParsing="false" onAction="#clickPost" text="View Comments" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                      <MenuItem fx:id="deleteItem" mnemonicParsing="false" onAction="#deleteCommentButtonPressed" text="delete" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+               <graphic>
+                  <ImageView fx:id="deleteButton" fitHeight="31.0" fitWidth="31.0" onMouseClicked="#deleteCommentButtonPressed" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../images/44_generated.png" />
+                     </image></ImageView>
+               </graphic>
+               <GridPane.margin>
+                  <Insets left="13.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</Pane>

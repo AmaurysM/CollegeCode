@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane fx:id="Background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(32, 32, 32);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SingupPage">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="100.0" />
+      <ColumnConstraints hgrow="NEVER" maxWidth="316.0" minWidth="10.0" prefWidth="312.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="266.8" minHeight="10.0" prefHeight="251.00000228881837" vgrow="NEVER" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Pane fx:id="InteractionArea" prefHeight="134.0" prefWidth="201.0" style="-fx-background-color: rgb(70, 70, 70); -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <VBox layoutX="63.0" layoutY="24.0" prefHeight="92.0" prefWidth="176.0" spacing="13.0">
+               <children>
+                  <TextField fx:id="usernameArea" promptText="Username" style="-fx-background-color: rgb(85, 85, 85); -fx-text-fill: #000;" />
+                  <PasswordField fx:id="firstPasswordArea" promptText="Password" style="-fx-background-color: rgb(85, 85, 85); -fx-text-fill: #000;" />
+                  <PasswordField fx:id="secondPasswordArea" promptText="Password" style="-fx-background-color: rgb(85, 85, 85); -fx-text-fill: #000;" />
+                  <TextField fx:id="eMailArea" prefHeight="28.0" prefWidth="176.0" promptText="EMail" style="-fx-background-color: rgb(85, 85, 85); -fx-text-fill: #000;" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <Button fx:id="singup" layoutX="63.0" layoutY="180.0" mnemonicParsing="false" onAction="#makeUser" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: rgb(108, 108, 108);" text="Singup" />
+            <Button fx:id="backToLogin" layoutX="163.0" layoutY="180.0" mnemonicParsing="false" onAction="#switchToLoginPage" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: rgb(108, 108, 108);" text="Back" />
+            <Label fx:id="errorLabel" alignment="CENTER" layoutX="32.0" layoutY="214.0" prefHeight="39.0" prefWidth="236.0" textAlignment="CENTER" textFill="#f6ff00" wrapText="true" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
