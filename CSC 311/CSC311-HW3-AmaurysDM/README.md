@@ -1,6 +1,11 @@
 # CSC311-HW3-AmaurysDM
-![Screen Recording 2025-02-01 172342](https://github.com/user-attachments/assets/d73453a4-b84b-4a62-8541-924b777edb5c)
 
+## Simple Guessing Game
 
-https://github.com/user-attachments/assets/cda59a04-8e14-4cd2-9ae7-099cd3c53871
+In this game, you choose between a circle and a square. After making your selection and pressing 'Guess,' an animated shape will appear—either a circle or a square—displayed in red or green. The color indicates whether your guess was correct, adding a visual element to the challenge.
+
+Your guess is also reacorded in a .accdb file. You can clear this file anytime.
+You can also press "Show Guess From DB" to display all of your previous guesses.
+
+https://github.com/user-attachments/assets/38b64fde-a8e7-4380-a06d-7bf3f6881140
 
