@@ -1,0 +1,26 @@
+.tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab {
+    -fx-background-color: rgb(59, 128, 152);
+    -fx-background-radius: 5;
+    -fx-font-weight: bold;
+}
+
+.menu-bar .label{
+    -fx-text-fill: rgb(9, 20, 24);
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill:  rgb(111, 218, 243);
+    -fx-font-weight: bold;
+}
+
+.cell {
+    -fx-font-weight:  bold;
+    -fx-background-color:  rgb(39, 85, 101);
+    -fx-text-fill: rgb(111, 218, 243);
+}
+
